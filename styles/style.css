@@ -4,7 +4,49 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    margin: 0;
 }
+/* ---------------*\
+  HEADER SECTION
+\*----------------*/
+header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24;
+}
+.logo img{
+    width: 40px;
+    height: 51px;
+}
+.navigation ul{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 16;
+}
+.navigation ul a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 7px;
+}
+/* ---------------*\
+  MAIN SECTION
+\*----------------*/
 main{
     display: flex;
     flex-direction: column;
