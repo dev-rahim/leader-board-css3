@@ -10,6 +10,7 @@ body{
   HEADER SECTION
 \*----------------*/
 header{
+    height: 94px;
     background-color: #562EFF;
     display: flex;
     justify-content: center;
