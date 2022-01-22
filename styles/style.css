@@ -44,4 +44,34 @@ main{
 }
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+/* TOP  BLOGE SECTION style */
+.bloges{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 26px;
+}
+.bloge{
+    display: flex;
+}
+.bloge .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.artical-info{
+    margin-left: 16px;
+}
+.bloge-title{
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 0;
+    MARGIN-BOTTOM: 6PX;
+}
+.author-name{
+    color: #9F9F9F;
+}
+.author-name a{
+    color: #562EFF;
+    text-decoration: none;
 }
