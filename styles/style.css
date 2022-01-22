@@ -137,3 +137,60 @@ hr{
 .class-time .fa-clock{
     margin-right: 5px;
 }
+
+/*-----------------*\
+ Media Queries 
+\*-----------------*/
+
+/* MOBLILE DEVICES */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 95%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .bloge{
+        flex-direction: row;
+    }
+    .bloges, .cources {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .bloge{
+        padding: 0 10px;
+        width: 75%;
+    }
+    .cource{
+        margin-bottom: 30px;
+    }
+}
+    /* Ipad Devices */
+    @media only screen and (min-width:688px) and (max-width:992px) {
+        .container{
+            width: 90%;
+        }
+        .players, .cources{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .player{
+            flex-direction: column;
+        }
+        .bloges, .cources{
+            justify-items: center;
+        }
+        .bloge{
+            flex-direction: column;
+            align-items: center;
+            width: 177px;
+        }
+        .cource{
+            margin-bottom: 30px;
+        }
+
+    }
+
+ 
