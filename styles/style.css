@@ -187,7 +187,10 @@ hr{
 
 /* MOBLILE DEVICES */
 @media only screen and (max-width:688px) {
-    .container{
+    nav{
+	width: 100%;
+    }
+     .container{
         width: 95%;
     }
     .players{
@@ -213,7 +216,10 @@ hr{
 }
     /* Ipad Devices */
     @media only screen and (min-width:688px) and (max-width:992px) {
-        .container{
+        nav{
+	    width: 100%;
+    	}
+	.container{
             width: 90%;
         }
         .players, .cources{
